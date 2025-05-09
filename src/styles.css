@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tab {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: white;
+}
+
+.disabled {
+  background-color: gray;
+}
+
+.search-options-container {
+  border: 1px solid black;
+  text-align: left;
+  width: 300px;
+}
+
+.search-option {
+  cursor: pointer;
+  padding: 10px 0;
+
+  &:hover {
+    background-color: beige;
+  }
+}
